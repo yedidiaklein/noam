@@ -26,6 +26,7 @@ require __DIR__ . '/includes/header.php';
 ?>
 <div class="card">
     <div class="ornament">✦ ✦ ✦</div>
+    <img class="noam-portrait large" src="assets/noam.png" alt="נֹעַם">
     <h1 class="center">הַשִּׁיר לְנֹעַם</h1>
     <p class="subtitle center">חמש החבורות, חמישה אבות, חמש אותיות — המתאחדות לברכה אחת.</p>
 

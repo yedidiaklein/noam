@@ -68,6 +68,22 @@ html, body {
 .brand-text strong { display: block; font-size: 20px; letter-spacing: 0.5px; }
 .brand-text small { color: var(--gold-light); font-size: 13px; }
 
+/* ───────── Noam portrait ───────── */
+.noam-portrait {
+    display: block;
+    width: 190px;
+    max-width: 55%;
+    height: auto;
+    margin: 6px auto 10px;
+    filter: drop-shadow(0 10px 22px rgba(0,0,0,0.45));
+    animation: portrait-rise .8s ease-out both;
+}
+.noam-portrait.large { width: 240px; }
+@keyframes portrait-rise {
+    from { opacity: 0; transform: translateY(14px) scale(0.96); }
+    to   { opacity: 1; transform: translateY(0) scale(1); }
+}
+
 /* ───────── Layout ───────── */
 .container {
     max-width: 880px;

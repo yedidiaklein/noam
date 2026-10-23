@@ -52,6 +52,7 @@ require __DIR__ . '/includes/header.php';
 ?>
 <div class="card">
     <div class="ornament">✦ ✦ ✦</div>
+    <img class="noam-portrait" src="assets/noam.png" alt="נֹעַם">
     <h1 class="center">בְּרוּכִים הַבָּאִים לְחֶדֶר הַבְּרִיחָה</h1>
     <p class="subtitle center">מסע בן חמישה שערים בעקבות אבות האומה ופייטני ישראל — לכבוד יום הולדתו של נֹעַם.</p>
 
