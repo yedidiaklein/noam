@@ -1,5 +1,0 @@
-mysql connection:
-server localhost
-db noam
-user noam
-password N0@m123!
