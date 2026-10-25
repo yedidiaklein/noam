@@ -45,7 +45,12 @@ require __DIR__ . '/includes/header.php';
 
     <div class="piyyut"><?= e($t['opening']) ?></div>
 
-    <div class="msg info center">בחרו מתוך: אַבְרָהָם · יִצְחָק · יַעֲקֹב · מֹשֶׁה · אַהֲרֹן</div>
+    <?php
+        // ערבוב סדר השמות בכל טעינה — כדי שלא יופיעו באותו סדר כמו הקבוצות
+        $figures = ['אַבְרָהָם', 'יִצְחָק', 'יַעֲקֹב', 'מֹשֶׁה', 'אַהֲרֹן'];
+        shuffle($figures);
+    ?>
+    <div class="msg info center">בחרו מתוך: <?= e(implode(' · ', $figures)) ?></div>
 
     <?php if ($error): ?>
         <div class="msg err center"><?= e($error) ?></div>

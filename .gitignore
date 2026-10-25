@@ -1,0 +1,9 @@
+# QR
+qr.php
+
+# Composer
+composer.json
+composer.lock
+
+# Vendor
+/vendor/
